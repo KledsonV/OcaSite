@@ -1,0 +1,23 @@
+<div class="card-group">
+      <div class="card">
+        <img src="Imagens/Gabriel.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">GNOOXZIN</h5>
+          <p class="card-text">Influenciador Oficial da ODG</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Imagens/Kledson.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ViniVII</h5>
+          <p class="card-text">Influenciador Oficial da ODG</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Imagens/Marcos.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">euGaribaldo</h5>
+          <p class="card-text">Influenciador Oficial da ODG</p>
+        </div>
+      </div>
+    </div>

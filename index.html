@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Oca</title>
+  </head>
+  <body>
+    <header>
+
+      
+<!-- Carousel -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Imagens/Slide1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Primeiro Slide</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Imagens/Slide2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Segundo Slide</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Imagens/Slide3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Terceiro Slide</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- NavBar -->
+
+      <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Oca Dos Galados</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Oca Dos Galados</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tag" data>Influenciadores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#discord">Discord</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Torneios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Staff</a>
+                </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<!-- Cards / Influenciadores-->
+
+      <div id="tag">
+        <h1 class="text-center" style="box-shadow: 1px 1px 5px 4px white; text-shadow: 3px 3px 6px;">Influenciadores</h1>
+        <div class="card-group"  style="box-shadow: 1px 1px 10px 15px aqua; padding: 2px;">
+          <div class="card">
+            <a href="https://www.twitch.tv/gnooxzin" target="_blank">
+            <img src="Imagens/Gabriel.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">GNOOXZIN</h5>
+              <p class="card-text">Influenciador Oficial da ODG</p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://www.twitch.tv/vinivii" target="_blank">
+            <img src="Imagens/Kledson.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">ViniVII</h5>
+              <p class="card-text">Influenciador Oficial da ODG</p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://www.twitch.tv/eugaribaldo" target="_blank">
+            <img src="Imagens/Marcos" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">euGaribaldo</h5>
+              <p class="card-text">Influenciador Oficial da ODG</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Discord -->
+    
+      <div id="discord">
+        <h1 class="text-center" style="margin-top: 80px; box-shadow: 1px 1px 5px 4px white;">Discord</h1>
+        <div class="Video">
+         <video width="500" height="500" controls>
+           <source src="Videos/Video Apresentação.mp4" type="video/mp4">
+         </video>
+        </div>
+        <div class="DiscordE">
+          <div class="card" style="width: 15rem;">
+            <img src="Imagens/ODG.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cartão Explicativo</h5>
+              <p class="card-text">O vídeo ao lado explica oque você deve fazer ao entrar no nosso servido do Discord! 😀</p>
+              <a href="https://discord.gg/sDYunMdcrc" class="btn btn-primary">Discord</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Scripts -->
+
+    <script src="https://kit.fontawesome.com/511f87e56b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!-- Scripts2 -->
+      <script>
+      </script>
+  
+  </body>
+</html>
